@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    background: url("img/bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+    font-family: sans-serif;
+    color: #fff;
+    font-weight: 700;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.main-link {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+.menu-item {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size: 45px;
+}
